@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ElectricityBillProject.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>EB Utility Suite</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/css/sb-admin-2.min.css" rel="stylesheet" />
+  <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body id="page-top">
+  <form runat="server">
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Dashboard.aspx">
+          <div class="sidebar-brand-icon">
+            <img src='<%= ResolveUrl("~/Styles/jbvnl_logo.jpg") %>' alt="JBVNL Logo" style="max-height: 40px; width: auto;" />
+          </div>
+          <div class="sidebar-brand-text mx-3">JBVNL Portal</div>
+        </a>
+        <hr class="sidebar-divider my-0" />
+        <!-- Add your dynamic nav links here -->
+        <asp:ContentPlaceHolder ID="SidebarLinks" runat="server" />
+      </div>
+
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+          <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+      </div>
+    </div>
+  </form>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/js/sb-admin-2.min.js"></script>
+  <asp:ContentPlaceHolder ID="foot" runat="server" />
+</body>
+</html>
