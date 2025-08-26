@@ -1,0 +1,5 @@
+C:\Infinite Trainining 2025\ASP.Net\MiniProject\ElectricityBillProject\DatabaseConnection\bin\Debug\DatabaseConnection.dll
+C:\Infinite Trainining 2025\ASP.Net\MiniProject\ElectricityBillProject\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
+C:\Infinite Trainining 2025\ASP.Net\MiniProject\ElectricityBillProject\DatabaseConnection\obj\Debug\DatabaseConnection.csproj.CoreCompileInputs.cache
+C:\Infinite Trainining 2025\ASP.Net\MiniProject\ElectricityBillProject\DatabaseConnection\obj\Debug\DatabaseConnection.dll
+C:\Infinite Trainining 2025\ASP.Net\MiniProject\ElectricityBillProject\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
